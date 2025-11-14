@@ -18,8 +18,6 @@ const Navbar = () => {
   const {user,clearUser} = useUserStore()
 
 
-  console.log(user);
-
   // handle logout function
   const handleLogout = () => {
     //  dispatch(logout())
